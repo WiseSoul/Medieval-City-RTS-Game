@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medieval City</title>
+  <link rel="stylesheet" type="text/css" href="assets/ui/css/style.css">
+
+
+</head>
+
+<body>
+  <div class="login-page">
+  <div class="form">
+    <form class="register-form" action="oracle/register.php" method="POST">
+      <input type="text" name="r_username" placeholder="name"/>
+      <input type="password" name="r_password" placeholder="password"/>
+      <input type="text" name="r_email" placeholder="email address"/>
+      <button type="submit">create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" action="oracle/login.php" method="POST">
+      <input type="text" name="a_username" placeholder="username"/>
+      <input type="password" name="a_password" placeholder="password"/>
+      <button type="submit">login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <p class="message">Forgot your password? <a href='recover-pass.html'>Click here</a></p>
+  </form>
+</div>
+   <div class="form">
+     <p class="message">About game <a href='story.html'>here</a></p>
+     <p class="message">Contact <a href='contact.html'>us</a></p>
+   </div>
+  </div>
+
+  <script src="js/lib/loglib.js"></script>
+  <script src="js/lib/index.js"></script>
+
+</body>
+</html>
